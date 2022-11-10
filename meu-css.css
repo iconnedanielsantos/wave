@@ -1,0 +1,57 @@
+body { 
+    background-image: url("https://s2.glbimg.com/78304Vtc080L7uogspvCqe898JI=/e.glbimg.com/og/ed/f/original/2021/04/30/mc360_abre_moda7.png");
+ } /*imagem de fundo do index*/
+
+ :root { /*cores do menu*/
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(231, 230, 230);
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul { /*menu principal*/
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+
+
