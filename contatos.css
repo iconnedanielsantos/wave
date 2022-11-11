@@ -1,159 +1,160 @@
-img{
-  height: 100px;
-  width: 100px;
+img {
+    height: 100px;
+    width: 100px;
 }
+
 h1 {
-  text-align: center;
-  font-family: Arial;
-  color: black;
+    text-align: center;
+    font-family: Arial;
+    color: black;
 }
 
 h2 {
-  text-align: center;
-  font-family: Arial;
-  color: black;
+    text-align: center;
+    font-family: Arial;
+    color: black;
 }
 
 p {
-  text-align: center;
-  font-family: Arial;
-  color: black;
+    text-align: center;
+    font-family: Arial;
+    color: black;
 }
 
 .iframe {
-  height: 250px;
-  width: 500px;
+    height: 250px;
+    width: 500px;
 }
 
 
 
 form {
-  /* Centralizar o formulário na pagina */
-  margin: 0 auto;
-  width: 400px;
-  /* Ver o esboço do formulário */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  background-color: black;
-  /*background-image: linear-gradient(rgb(255, 196, 0), yellow, rgb(255, 255, 117));*/
+    /* Centralizar o formulário na pagina */
+    margin: 0 auto;
+    width: 400px;
+    /* Ver o esboço do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: black;
+    /*background-image: linear-gradient(rgb(255, 196, 0), yellow, rgb(255, 255, 117));*/
 }
 
 form div+div {
-  margin-top: 1em;
+    margin-top: 1em;
 }
 
 label {
-  /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-  color: white;
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: white;
 }
 
 input,
 textarea {
-  /* 
-Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
-     Por padrão, as áreas de texto possuem a mesma fonte */
-  font: 1em sans-serif;
+    /* 
+  Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+       Por padrão, as áreas de texto possuem a mesma fonte */
+    font: 1em sans-serif;
 
-  /* Para dar o mesmo tamanho a todos os campos de texto*/
-  width: 300px;
-  box-sizing: border-box;
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 300px;
+    box-sizing: border-box;
 
 
-  /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
-  border: 1px solid #999;
-  background-color: rgb(224, 224, 224);
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #999;
+    background-color: rgb(224, 224, 224);
 }
 
 input:focus,
 textarea:focus {
-  /* Para dar um pouco de destaque aos elementos ativos*/
-  border-color: #000;
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #000;
 }
 
 textarea {
-  /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
-  vertical-align: top;
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
 
-  /* Para dar espaço suficiente para digitar algum texto */
-  height: 5em;
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
 }
 
 .button {
-  /* Para posicionar os botões na mesma posição dos campos de texto */
-  padding-left: 90px;
-  /* mesmo tamanho que os elementos do rótulo */
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 90px;
+    /* mesmo tamanho que os elementos do rótulo */
 }
 
 button {
-  /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
-     entre os rótulos e seus campos de texto*/
-  margin-left: .5em;
-  color: white;
-  background-color: black;
-  border-color: white;
-  border-radius: 5px;
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+       entre os rótulos e seus campos de texto*/
+    margin-left: .5em;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 5px;
 }
 
 :root {
-  /*cores do menu*/
-  --cor-fundo: rgb(34, 41, 37);
-  --cor-hover: rgb(231, 230, 230);
-  --cor-primaria: rgb(231, 241, 236);
-  background-color: #cccccc;
-  background-image: url('Telefone_contato.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: left;
-  font-family: Arial;
+    /*cores do menu*/
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(231, 230, 230);
+    --cor-primaria: rgb(231, 241, 236);
+    background-color: #cccccc;
+    background-image: url('Telefone_contato.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+    font-family: Arial;
 }
 
 .dp-menu ul {
-  /*menu principal*/
-  list-style-type: none;
-  padding: 0;
+    /*menu principal*/
+    list-style-type: none;
+    padding: 0;
 }
 
 .dp-menu ul {
-  background-color: var(--cor-fundo);
+    background-color: var(--cor-fundo);
 }
 
 .dp-menu ul li {
-  display: inline;
-  position: relative;
+    display: inline;
+    position: relative;
 }
 
 .dp-menu ul li a {
-  color: var(--cor-primaria);
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-  transition: background .3s;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
 }
 
 .dp-menu ul li a:hover {
-  background-color: var(--cor-hover);
+    background-color: var(--cor-hover);
 }
 
 /*sub menu*/
 .dp-menu ul ul {
-  display: none;
-  left: 0;
-  position: absolute;
+    display: none;
+    left: 0;
+    position: absolute;
 }
 
 .dp-menu ul li:hover ul {
-  display: block;
+    display: block;
 }
 
 .dp-menu ul ul {
-  width: 150px
+    width: 150px
 }
 
 .dp-menu ul ul li a {
-  display: block;
+    display: block;
 }
