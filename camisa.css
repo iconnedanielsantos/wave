@@ -43,6 +43,7 @@
     display: block;
 }
 
+
 .dp-menu ul ul {
     width: 150px
 }
@@ -53,8 +54,37 @@
 
 body {
     background-color: #cccccc;
-    background-image: linear-gradient(rgb(251, 254, 255), rgba(78, 78, 78, 0.836), rgb(73, 73, 73));
+    background-image: linear-gradient(rgb(251, 254, 255), rgba(179, 175, 175, 0.836), rgb(172, 171, 171));
 
 
+
+}
+
+/*CSS DO BOTAO 1COLOR É A COR DA LETRA BACKGROUND É A COR DO BOTAO E BORDER COR DA BORDA BORDER RADIUS É PRA DEIXAR A BORDAR REDONDA */
+.botao {
+
+    padding: 10px;
+
+    width: px;
+
+    color: rgb(255, 255, 255);
+
+    background: #000000;
+
+    border: 1px solid rgb(61, 60, 60);
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    user-select: none;
+
+    cursor: pointer;
+}
+
+/*BOTAO HOVER É PRA QUANDO PASSAR O CURSOR NO BOTAO ELE MUDA LIGERAMENTE DE COR */
+.botao:hover {
+
+    background: #707070;
 
 }
