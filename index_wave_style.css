@@ -8,6 +8,9 @@
 
 body { 
     background-image: url("https://s2.glbimg.com/78304Vtc080L7uogspvCqe898JI=/e.glbimg.com/og/ed/f/original/2021/04/30/mc360_abre_moda7.png");
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
  } /*imagem de fundo do index*/
 
  :root { /*cores do menu*/
